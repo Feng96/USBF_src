@@ -35,6 +35,21 @@ def test_regression_refuses_incomplete_fixed_sample(tmp_path):
     with pytest.raises(ValueError,match='complete fixed example'):
         compare(tmp_path,tmp_path/'product.parquet',tmp_path/'report.json')
 
+def test_metric_roundoff_preserves_exact_boundary_counts_and_rejects_real_changes():
+    import pandas as pd
+    from usbf.evaluation.numerical import compare_metric_columns
+    expected=pd.DataFrame({'x_intersection_m2':[10.], 'x_union_m2':[25.],
+        'x_iou':[.4], 'x_pred_n':[100], 'x_bf1_1m':[.5]})
+    actual=expected.copy();actual['x_intersection_m2']+=5e-8
+    actual['x_iou']=actual.x_intersection_m2/actual.x_union_m2
+    assert compare_metric_columns(actual,expected)['status']=='passed'
+    changed=actual.copy();changed['x_pred_n']+=1
+    assert compare_metric_columns(changed,expected)['failing_columns']=={'x_pred_n':1}
+    changed=actual.copy();changed['x_intersection_m2']+=.001
+    assert 'x_intersection_m2' in compare_metric_columns(changed,expected)['failing_columns']
+    changed=actual.copy();changed['x_iou']+=.001
+    assert 'x_iou' in compare_metric_columns(changed,expected)['failing_columns']
+
 def test_corrupt_input_refused(tmp_path):
     p=tmp_path/'bad.npz';p.write_bytes(b'broken')
     with pytest.raises(ValueError,match='checksum'):load_sensor(dict(path=p,sha256='0'*64),True)

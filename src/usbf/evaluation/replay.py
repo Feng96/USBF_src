@@ -96,12 +96,14 @@ def replay(data_dir,output,example_product=None,generated_product=None):
         if len(data)!=2019 or int(changed.sum())!=171:raise AssertionError('Primary sample definition changed')
         counts=data.loc[changed,'original_action_class'].value_counts().to_dict()
         if counts!={'addition_only':144,'removal_only':20,'addition_and_removal':7}:raise AssertionError(counts)
-        expected=pd.read_csv(folder/'expected_metrics.csv').set_index('key');errors={}
-        for c in scores:
-            if c in expected:errors[c]=float(np.max(np.abs(scores[c]-expected.loc[scores.index,c])))
+        expected=pd.read_csv(folder/'expected_metrics.csv').set_index('key')
+        from .numerical import compare_metric_columns
+        numeric=compare_metric_columns(scores,expected)
+        errors=numeric['individual_column_differences']
+        save(output/'NUMERICAL_REGRESSION.json',numeric)
         verification.update(expected_metrics_used_only_after_rescoring=True,maximum_metric_difference=max(errors.values()),
-                            individual_column_differences=errors,accepted_operation_counts=counts)
-        if max(errors.values())>1e-10:raise AssertionError('Historical geometry-score regression differs: '+str(max(errors.values())))
+                            individual_column_differences=errors,accepted_operation_counts=counts,numerical_regression=numeric)
+        if numeric['status']!='passed':raise AssertionError('Historical metric regression differs: '+str(numeric['failing_columns']))
         q=summary[summary.population.eq('modified')&summary.reference_frame.eq('reference_in_NAIP_frame')&summary['product'].eq('USBF_OSM_gate')]
         i=q[q.metric.eq('iou')].iloc[0];f=q[q.metric.eq('bf1_1m')].iloc[0]
         if (i.improved,i.stable,i.worsened)!=(102,22,47):raise AssertionError('IoU outcome counts changed')
