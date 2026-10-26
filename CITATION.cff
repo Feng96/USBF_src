@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the USBF manuscript and the exact software release used."
+title: "USBF: local manuscript reproduction"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Feng
+    given-names: Yinan
+  - family-names: Wu
+    given-names: Qiusheng
+  - family-names: Li
+    given-names: Yingkui
+  - family-names: Tran
+    given-names: Liem

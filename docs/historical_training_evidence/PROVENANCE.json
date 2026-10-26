@@ -1,0 +1,15 @@
+{
+  "paired_RESULTS.md": {
+    "sha256": "75359cfbf1a375dccc901992ad2f6af7394028c890455299f48923d507341352",
+    "role": "historical recorded evidence, not recomputed segmentation validation"
+  },
+  "height_comparison.csv": {
+    "sha256": "f6c2424d3a132b4da330b3f49a2dded957f7aa4ce8277e6b930e8a5af6173b2c",
+    "role": "historical recorded evidence, not recomputed segmentation validation"
+  },
+  "height_README.md": {
+    "sha256": "6017355bc80b27ddb2da0d06677b1644afd150864af2d06af62db38642fd12e7",
+    "role": "Edited scientific excerpt of historical launch note; original source identified by sha256; cluster operations removed",
+    "distributed_file_sha256": "5c6ad202669e07474a1bdaa2fb7b7952a8577eaa00788ee9fb4ab2f395f4655e"
+  }
+}

@@ -1,0 +1,431 @@
+{
+  "example": "Vegas_SN2_1226",
+  "generation_bounds_m": [
+    654912,
+    4010896,
+    655424,
+    4011408
+  ],
+  "registration_bounds_m": [
+    654656.0,
+    4010640.0,
+    655680.0,
+    4011664.0
+  ],
+  "crs": "EPSG:32611",
+  "inputs": [
+    {
+      "name": "nv_m_3611554_ne_11_1_20150525_20150923",
+      "role": "Original four-band NAIP source: RGB and NIR",
+      "unsigned_url": "https://naipeuwest.blob.core.windows.net/naip/v002/nv/2015/nv_100cm_2015/36115/m_3611554_ne_11_1_20150525.tif",
+      "sha256": null,
+      "checksum_status": "Full upstream COG digest not recorded; prepared arrays are hashed separately",
+      "bundled": false
+    },
+    {
+      "name": "NV_LasVegasValley_2010-dsm-2m-1-1",
+      "role": "dsm",
+      "unsigned_url": "https://usgslidareuwest.blob.core.windows.net/usgs-3dep-cogs/usgs-cogs/NV_LasVegasValley_2010/dsm/NV_LasVegasValley_2010-dsm-2m-1-1.tif",
+      "sha256": null,
+      "checksum_status": "Full upstream COG digest not recorded; prepared signed-nDSM snapshot is hashed separately",
+      "used_pixels": 0,
+      "bundled": false
+    },
+    {
+      "name": "NV_LasVegasValley_2010-dtm-2m-1-1",
+      "role": "dtm",
+      "unsigned_url": "https://usgslidareuwest.blob.core.windows.net/usgs-3dep-cogs/usgs-cogs/NV_LasVegasValley_2010/dtm/NV_LasVegasValley_2010-dtm-2m-1-1.tif",
+      "sha256": null,
+      "checksum_status": "Full upstream COG digest not recorded; prepared signed-nDSM snapshot is hashed separately",
+      "used_pixels": 0,
+      "bundled": false
+    },
+    {
+      "name": "USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018-dsm-2m-1-4",
+      "role": "dsm",
+      "unsigned_url": "https://usgslidareuwest.blob.core.windows.net/usgs-3dep-cogs/usgs-cogs/USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018/dsm/USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018-dsm-2m-1-4.tif",
+      "sha256": null,
+      "checksum_status": "Full upstream COG digest not recorded; prepared signed-nDSM snapshot is hashed separately",
+      "used_pixels": 1048560,
+      "bundled": false
+    },
+    {
+      "name": "USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018-dtm-2m-1-4",
+      "role": "dtm",
+      "unsigned_url": "https://usgslidareuwest.blob.core.windows.net/usgs-3dep-cogs/usgs-cogs/USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018/dtm/USGS_LPC_NV_LasVegas_QL1_2016_LAS_2018-dtm-2m-1-4.tif",
+      "sha256": null,
+      "checksum_status": "Full upstream COG digest not recorded; prepared signed-nDSM snapshot is hashed separately",
+      "used_pixels": 1048560,
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1029.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1029.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1029.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1029.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1030.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1030.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1030.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1030.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1031.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1031.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1031.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1031.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1032.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1032.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1032.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1032.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1034.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1034.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1034.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1034.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1097.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1097.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1097.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1097.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1098.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1098.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1098.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1098.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1161.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1161.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1161.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1161.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1162.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1162.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1162.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1162.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1163.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1163.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1163.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1163.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1223.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1223.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1223.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1223.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1225.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1225.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1225.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1225.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1226.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1226.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1226.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1226.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1227.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1227.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1227.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1227.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1287.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1287.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1287.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1287.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1288.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1288.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1288.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1288.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1290.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1290.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1290.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1290.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1350.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1350.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1350.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1350.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1352.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1352.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1352.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1352.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1353.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1353.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1353.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1353.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1354.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1354.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1354.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1354.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1413.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1413.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1413.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1413.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1414.tif",
+      "role": "Original SpaceNet registration context imagery",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/PS-RGB/SN2_buildings_train_AOI_2_Vegas_PS-RGB_img1414.tif",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    },
+    {
+      "name": "SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1414.geojson",
+      "role": "Original SpaceNet registration context labels",
+      "unsigned_url": "https://spacenet-dataset.s3.amazonaws.com/spacenet/SN2_buildings/train/AOI_2_Vegas/geojson_buildings/SN2_buildings_train_AOI_2_Vegas_geojson_buildings_img1414.geojson",
+      "sha256": null,
+      "checksum_status": "Prepared context/reference snapshot is hashed; live upstream object not asserted identical",
+      "bundled": false
+    }
+  ],
+  "role": "Original acquisition pointers, not the frozen prepared-asset download manifest"
+}

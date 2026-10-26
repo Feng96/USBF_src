@@ -1,0 +1,14 @@
+{
+  "science": "GBA_V6circle_V7_reference_night_v003_20260911",
+  "circle_search": "enabled; observed curvature v002",
+  "osm_policy": "V7_OSM_circle_confirmation_v1_20260918",
+  "confirmation": "exact eligible OSM type and ID; no spatial relaxation; unavailable reference reverts exact GBA",
+  "reference_scope": "Archived Los Angeles/Bay Area snapshot, not nationwide or Las Vegas",
+  "input_inventory": "GBA only; OSM/Microsoft are inherited provenance",
+  "nDSM_physical_units": "signed metres",
+  "model_height": "clip signed valid height to 0..30m then divide by30; invalid\u21920 plus validity0",
+  "instances": "one output per valid original input ID; no instance deletion, splitting or detection",
+  "height_attribute": "inherit supplied GBA value; absent source values remain null",
+  "local_thresholds_source": "src/usbf/refinement/detail_rules.py and raster_rules.py",
+  "curve_thresholds_source": "src/usbf/refinement/curvature.py and osm_gate.py"
+}

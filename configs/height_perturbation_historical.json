@@ -1,0 +1,40 @@
+{
+  "version": "full20_suite_v0.1.0",
+  "utc": "2026-09-07T02:38:41.179170+00:00",
+  "arms": {
+    "B0_gated_clean": [
+      "gated",
+      "none"
+    ],
+    "C_gated_boundary": [
+      "gated_boundary",
+      "random"
+    ]
+  },
+  "epochs_per_arm": 20,
+  "train_samples": 3905,
+  "val_samples": 231,
+  "updates_per_epoch": 977,
+  "updates_per_arm": 19540,
+  "seed": 20260906,
+  "batch_size": 4,
+  "precision": "fp32",
+  "initialization": "fresh ImageNet backbone, shared decoder initialization; no pilot warm start",
+  "common_initial_reconstructed_sha256": {
+    "B0_gated_clean": "b831be50183914feafb6ae4a058ae6feaaeee94bfbd9228dfb183ae0784f022a",
+    "C_gated_boundary": "b831be50183914feafb6ae4a058ae6feaaeee94bfbd9228dfb183ae0784f022a"
+  },
+  "manifest_sha256": "30b69d71460f94e09767fb4eadce9c23733966e78ac42cbc9533fe65578a84be",
+  "coverage_sha256": "b6286362ef69c307cbc86de0813ac41c52c084a11da1dd22e3ef1f476ad99de4",
+  "expected_supervised_pixels": {
+    "train": 991159489,
+    "val": 56271632
+  },
+  "selection": "best normal full-val masked IoU at fixed threshold 0.5; earliest wins ties",
+  "early_stopping": false,
+  "test_opened": false,
+  "official_gt_used": false,
+  "gba_modified": false,
+  "comparison_limit": "B0 vs C compares complete recipes (C has BOTH augmentation and boundary), not a pure boundary ablation",
+  "historical_protocol_sha256": "efdad309760122ab0cd172f322bfaf6f36f2a53b7c4c21f62741f1185dfb40ef"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "B1_shape_paired_v001_20260909",
+  "tags": [
+    "B0_control",
+    "B1_shape"
+  ],
+  "batch": 8,
+  "epochs_max": 60,
+  "training_loop_budget_hours": 4.0,
+  "inputs": "4164 NAIP + 2757 MA1m train; 231 NAIP + 75 MA1m val; frozen legacy/GBA labels; no test",
+  "change": "Native-grid detail residual + raster-supervised fourfold directions + edge; not full FFL reproduction",
+  "shared_lr": "backbone2e-6/head2e-5 cosine to0.1x over60epochs",
+  "new_head_lr": "1e-4 cosine to0.1x",
+  "optimizer": "AdamW reset BOTH arms, wd1e-4, clip5; common best_MA epoch65 warm start",
+  "selection": "Per-domain best metric boundaryF1@1m, only if IoU>=initial_domain_IoU-0.002; epoch0 preserved",
+  "precision": "BF16 training, FP32 validation",
+  "evaluate_every": 5,
+  "source_labels_modified": false,
+  "independent_GT": false,
+  "test_opened": false,
+  "parent": {
+    "sha256": "cf96686c920a4bbe27b3ec00161f6d855f73a5a94f1da107fa2353040a0f48f8",
+    "epoch": 65,
+    "updates": 28210,
+    "asset": "B0_parent_epoch65.pth",
+    "bundled_with_minimal_example": false
+  },
+  "historical_configuration_sha256": "b68a72d6e6c886d1e055384467628c5a9d915bd60fc3a52d00ee5d64b1125da8",
+  "selected_inference_checkpoints": {
+    "B0": {
+      "epoch": 5,
+      "updates": 4330,
+      "sha256": "1912c45a663ab95962449960791396eacfc2fa9f5236b0abcce6bb5716c71238"
+    },
+    "B1": {
+      "epoch": 49,
+      "updates": 42434,
+      "sha256": "65b86df2d146f4074eea700cd6cd8ff2d3839e9a837c3dc0d947211b6e87bcc9"
+    }
+  },
+  "selected_epochs_are_not_equal_budget_ablation": true
+}

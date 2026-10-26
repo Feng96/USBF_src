@@ -1,0 +1,48 @@
+{
+  "figures": [
+    {
+      "filename": "Figure_4_curved_and_courtyard",
+      "cases": [
+        {
+          "key": "ms:UnitedStates_030233202_19696",
+          "short_label": "Circular structure | Springfield, MA"
+        },
+        {
+          "key": "ms:UnitedStates_023013200_777119",
+          "short_label": "Interior courtyard | Orange County, CA"
+        }
+      ]
+    },
+    {
+      "filename": "Figure_5_local_boundary_changes",
+      "cases": [
+        {
+          "key": "osm:593162397",
+          "short_label": "Boundary extension | Salt Lake County, UT"
+        },
+        {
+          "key": "osm:51377860",
+          "short_label": "Revised outline | Salt Lake County, UT"
+        }
+      ]
+    },
+    {
+      "filename": "Figure_6_failure_modes",
+      "cases": [
+        {
+          "key": "osm:580735620",
+          "short_label": "Lost recesses and expansion | Salt Lake County, UT"
+        },
+        {
+          "key": "osm:613170324",
+          "short_label": "Boundary overextension | Salt Lake County, UT"
+        }
+      ]
+    }
+  ],
+  "selection": "Historical examples selected after inspection to illustrate contrasting operations; not random accuracy samples",
+  "source_choices_sha256": "2c99d2d6eeeeb45c73de083561e8719e8e13578399743fc4d907d0583da553f3",
+  "revised_failure_selection_sha256": "8e945dd217269933a4c1f6fcbc8312bdb2ea5305b64fb87ad1dc76c144e3e5c6",
+  "later_model_role_revision_changed_example_selection": false,
+  "rendering": "Frozen RGB and scientific polygons; no new predictions; current three-object local preview is separate"
+}

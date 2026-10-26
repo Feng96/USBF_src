@@ -1,0 +1,1639 @@
+{
+  "status": "passed_with_explicit_unverified_items",
+  "checked_numeric_cells": 269,
+  "checks": [
+    {
+      "item": "Table3/Additions only/n",
+      "printed": 144.0,
+      "recomputed": 144.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Additions only/IoU",
+      "printed": 2.64,
+      "recomputed": 2.6394667135812218,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Additions only/F1",
+      "printed": 4.42,
+      "recomputed": 4.4166876989117005,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Removals only/n",
+      "printed": 20.0,
+      "recomputed": 20.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Removals only/IoU",
+      "printed": 1.4,
+      "recomputed": 1.3982867073278604,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Removals only/F1",
+      "printed": 7.76,
+      "recomputed": 7.755261212414025,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Additions and removals/n",
+      "printed": 7.0,
+      "recomputed": 7.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Additions and removals/IoU",
+      "printed": 9.37,
+      "recomputed": 9.372827691924497,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/Additions and removals/F1",
+      "printed": 21.97,
+      "recomputed": 21.97414978398815,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All modified buildings/n",
+      "printed": 171.0,
+      "recomputed": 171.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All modified buildings/IoU",
+      "printed": 2.77,
+      "recomputed": 2.7699341213200275,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All modified buildings/F1",
+      "printed": 5.53,
+      "recomputed": 5.525890651342003,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All unchanged buildings/n",
+      "printed": 1848.0,
+      "recomputed": 1848.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All unchanged buildings/IoU",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "Table3/All unchanged buildings/F1",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Long-axis change/n",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Long-axis change/IoU",
+      "printed": 16.13,
+      "recomputed": 16.12967616664709,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Long-axis change/F1",
+      "printed": 25.21,
+      "recomputed": 25.208750779740623,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Long-axis change/parents",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area expansion/n",
+      "printed": 140.0,
+      "recomputed": 140.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area expansion/IoU",
+      "printed": 2.53,
+      "recomputed": 2.5284560708687733,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area expansion/F1",
+      "printed": 4.2,
+      "recomputed": 4.195870552786736,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area expansion/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area contraction/n",
+      "printed": 17.0,
+      "recomputed": 17.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area contraction/IoU",
+      "printed": 2.82,
+      "recomputed": 2.823482237261991,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area contraction/F1",
+      "printed": 13.24,
+      "recomputed": 13.236119818916478,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Net area contraction/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Near-constant-area change/n",
+      "printed": 11.0,
+      "recomputed": 11.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Near-constant-area change/IoU",
+      "printed": 2.12,
+      "recomputed": 2.116968935518302,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Near-constant-area change/F1",
+      "printed": 5.17,
+      "recomputed": 5.169557702594293,
+      "status": "passed"
+    },
+    {
+      "item": "TableS4/Near-constant-area change/parents",
+      "printed": 4.0,
+      "recomputed": 4.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/iou/delta_pp",
+      "printed": -0.59,
+      "recomputed": -0.5856096924646276,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/iou/ci_low_pp",
+      "printed": -1.19,
+      "recomputed": -1.1882243390510234,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/iou/ci_high_pp",
+      "printed": -0.27,
+      "recomputed": -0.2654976003865091,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/bf1_1m/delta_pp",
+      "printed": -1.48,
+      "recomputed": -1.479882996968352,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/bf1_1m/ci_low_pp",
+      "printed": -2.72,
+      "recomputed": -2.7204785740364223,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / original/bf1_1m/ci_high_pp",
+      "printed": -0.77,
+      "recomputed": -0.7653968071280457,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/iou/delta_pp",
+      "printed": 0.23,
+      "recomputed": 0.2346006610924837,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/iou/ci_low_pp",
+      "printed": 0.06,
+      "recomputed": 0.06326857747813691,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/iou/ci_high_pp",
+      "printed": 0.42,
+      "recomputed": 0.41860445505118904,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/bf1_1m/delta_pp",
+      "printed": 0.47,
+      "recomputed": 0.4680174845861725,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/bf1_1m/ci_low_pp",
+      "printed": -0.02,
+      "recomputed": -0.024662651144636144,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/All matches; after / registered/bf1_1m/ci_high_pp",
+      "printed": 1.04,
+      "recomputed": 1.0414835231532045,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/iou/delta_pp",
+      "printed": -6.91,
+      "recomputed": -6.91430391278411,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/iou/ci_low_pp",
+      "printed": -8.23,
+      "recomputed": -8.22551800555959,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/iou/ci_high_pp",
+      "printed": -4.46,
+      "recomputed": -4.457035891242637,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/bf1_1m/delta_pp",
+      "printed": -17.47,
+      "recomputed": -17.47300450806493,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/bf1_1m/ci_low_pp",
+      "printed": -19.59,
+      "recomputed": -19.59002750281879,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / original/bf1_1m/ci_high_pp",
+      "printed": -13.27,
+      "recomputed": -13.266877990219456,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/iou/delta_pp",
+      "printed": 2.77,
+      "recomputed": 2.7699341213200275,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/iou/ci_low_pp",
+      "printed": 1.1,
+      "recomputed": 1.1024549625565354,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/iou/ci_high_pp",
+      "printed": 5.18,
+      "recomputed": 5.181428632271803,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/bf1_1m/delta_pp",
+      "printed": 5.53,
+      "recomputed": 5.525890651342003,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/bf1_1m/ci_low_pp",
+      "printed": -0.43,
+      "recomputed": -0.4297466961952849,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final modified / registered/bf1_1m/ci_high_pp",
+      "printed": 11.08,
+      "recomputed": 11.084904449702625,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/iou/delta_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/iou/ci_low_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/iou/ci_high_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/bf1_1m/delta_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/bf1_1m/ci_low_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / original/bf1_1m/ci_high_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/iou/delta_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/iou/ci_low_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/iou/ci_high_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/bf1_1m/delta_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/bf1_1m/ci_low_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Final unchanged / registered/bf1_1m/ci_high_pp",
+      "printed": 0.0,
+      "recomputed": 0.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/iou/delta_pp",
+      "printed": -7.38,
+      "recomputed": -7.377698215752281,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/iou/ci_low_pp",
+      "printed": -8.82,
+      "recomputed": -8.819462704212633,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/iou/ci_high_pp",
+      "printed": -4.53,
+      "recomputed": -4.534856610609707,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/bf1_1m/delta_pp",
+      "printed": -18.39,
+      "recomputed": -18.387702998431703,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/bf1_1m/ci_low_pp",
+      "printed": -20.62,
+      "recomputed": -20.61883653680904,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / original/bf1_1m/ci_high_pp",
+      "printed": -13.61,
+      "recomputed": -13.605690507152046,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/iou/delta_pp",
+      "printed": 2.13,
+      "recomputed": 2.128062503496496,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/iou/ci_low_pp",
+      "printed": 0.51,
+      "recomputed": 0.5057145692414141,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/iou/ci_high_pp",
+      "printed": 4.85,
+      "recomputed": 4.84749867512145,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/bf1_1m/delta_pp",
+      "printed": 3.91,
+      "recomputed": 3.914032440360969,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/bf1_1m/ci_low_pp",
+      "printed": -2.15,
+      "recomputed": -2.154080349928845,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; before / registered/bf1_1m/ci_high_pp",
+      "printed": 10.42,
+      "recomputed": 10.41578935304127,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/iou/delta_pp",
+      "printed": -6.57,
+      "recomputed": -6.568588717144904,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/iou/ci_low_pp",
+      "printed": -7.94,
+      "recomputed": -7.938694279875369,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/iou/ci_high_pp",
+      "printed": -4.31,
+      "recomputed": -4.305309087867632,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/bf1_1m/delta_pp",
+      "printed": -16.6,
+      "recomputed": -16.599354282661686,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/bf1_1m/ci_low_pp",
+      "printed": -18.63,
+      "recomputed": -18.631727851421882,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / original/bf1_1m/ci_high_pp",
+      "printed": -12.74,
+      "recomputed": -12.736202870610677,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/iou/delta_pp",
+      "printed": 2.63,
+      "recomputed": 2.6314374152540254,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/iou/ci_low_pp",
+      "printed": 1.02,
+      "recomputed": 1.0176507346675712,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/iou/ci_high_pp",
+      "printed": 5.04,
+      "recomputed": 5.041390020588781,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/bf1_1m/delta_pp",
+      "printed": 5.25,
+      "recomputed": 5.249596118774901,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/bf1_1m/ci_low_pp",
+      "printed": -0.4,
+      "recomputed": -0.3966892580264168,
+      "status": "passed"
+    },
+    {
+      "item": "TableS6/Fixed 180; after / registered/bf1_1m/ci_high_pp",
+      "printed": 10.79,
+      "recomputed": 10.7853124375485,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/n",
+      "printed": 78.0,
+      "recomputed": 78.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/iou/delta_pp",
+      "printed": 2.71,
+      "recomputed": 2.7065896633872355,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/iou/ci_low_pp",
+      "printed": 0.82,
+      "recomputed": 0.8176745067577245,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/iou/ci_high_pp",
+      "printed": 6.48,
+      "recomputed": 6.484419976646255,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/n",
+      "printed": 78.0,
+      "recomputed": 78.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/bf1_1m/delta_pp",
+      "printed": 3.24,
+      "recomputed": 3.235719617403638,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/bf1_1m/ci_low_pp",
+      "printed": -2.73,
+      "recomputed": -2.7322548275558534,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : Microsoft/bf1_1m/ci_high_pp",
+      "printed": 13.05,
+      "recomputed": 13.050273289100181,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/n",
+      "printed": 93.0,
+      "recomputed": 93.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/iou/delta_pp",
+      "printed": 2.82,
+      "recomputed": 2.823061731199144,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/iou/ci_low_pp",
+      "printed": 1.69,
+      "recomputed": 1.6904927874775304,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/iou/ci_high_pp",
+      "printed": 4.57,
+      "recomputed": 4.574198461049763,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/n",
+      "printed": 93.0,
+      "recomputed": 93.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/bf1_1m/delta_pp",
+      "printed": 7.45,
+      "recomputed": 7.446679260451599,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/bf1_1m/ci_low_pp",
+      "printed": 6.19,
+      "recomputed": 6.187719251466472,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/source : OSM/bf1_1m/ci_high_pp",
+      "printed": 10.63,
+      "recomputed": 10.627851184538654,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/n",
+      "printed": 85.0,
+      "recomputed": 85.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/iou/delta_pp",
+      "printed": 2.49,
+      "recomputed": 2.485323861451417,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/iou/ci_low_pp",
+      "printed": -0.41,
+      "recomputed": -0.40835863678414075,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/iou/ci_high_pp",
+      "printed": 5.57,
+      "recomputed": 5.571324076719721,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/n",
+      "printed": 85.0,
+      "recomputed": 85.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/bf1_1m/delta_pp",
+      "printed": 3.35,
+      "recomputed": 3.3494752856610326,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/bf1_1m/ci_low_pp",
+      "printed": -5.09,
+      "recomputed": -5.092609571364294,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 100\u2013250/bf1_1m/ci_high_pp",
+      "printed": 11.69,
+      "recomputed": 11.69183010371806,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/n",
+      "printed": 51.0,
+      "recomputed": 51.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/parents",
+      "printed": 4.0,
+      "recomputed": 4.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/iou/delta_pp",
+      "printed": 3.23,
+      "recomputed": 3.23101928412051,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/iou/ci_low_pp",
+      "printed": 2.2,
+      "recomputed": 2.1976461533009384,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/iou/ci_high_pp",
+      "printed": 4.73,
+      "recomputed": 4.728226009260872,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/n",
+      "printed": 51.0,
+      "recomputed": 51.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/parents",
+      "printed": 4.0,
+      "recomputed": 4.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/bf1_1m/delta_pp",
+      "printed": 9.04,
+      "recomputed": 9.04395368812581,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/bf1_1m/ci_low_pp",
+      "printed": 5.74,
+      "recomputed": 5.737474091194262,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 250\u2013500/bf1_1m/ci_high_pp",
+      "printed": 15.14,
+      "recomputed": 15.139805053476715,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/n",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/iou/delta_pp",
+      "printed": 10.54,
+      "recomputed": 10.535344460614766,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/iou/ci_low_pp",
+      "printed": 5.04,
+      "recomputed": 5.0378059991171344,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/iou/ci_high_pp",
+      "printed": 15.03,
+      "recomputed": 15.033738547738906,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/n",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/bf1_1m/delta_pp",
+      "printed": 19.75,
+      "recomputed": 19.745417350103676,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/bf1_1m/ci_low_pp",
+      "printed": 15.93,
+      "recomputed": 15.930095758751781,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : 50\u2013100/bf1_1m/ci_high_pp",
+      "printed": 26.3,
+      "recomputed": 26.301153008136968,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/n",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/parents",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/iou/delta_pp",
+      "printed": 10.28,
+      "recomputed": 10.284468961675158,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/iou/ci_low_pp",
+      "printed": -19.31,
+      "recomputed": -19.31009263866219,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/iou/ci_high_pp",
+      "printed": 39.88,
+      "recomputed": 39.87903056201251,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/n",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/parents",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/bf1_1m/delta_pp",
+      "printed": 18.95,
+      "recomputed": 18.9452341832194,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/bf1_1m/ci_low_pp",
+      "printed": -22.62,
+      "recomputed": -22.619047619047617,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : <50/bf1_1m/ci_high_pp",
+      "printed": 60.51,
+      "recomputed": 60.509515985486416,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/n",
+      "printed": 28.0,
+      "recomputed": 28.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/parents",
+      "printed": 4.0,
+      "recomputed": 4.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/iou/delta_pp",
+      "printed": 0.87,
+      "recomputed": 0.8706629573494311,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/iou/ci_low_pp",
+      "printed": 0.21,
+      "recomputed": 0.20591930470046674,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/iou/ci_high_pp",
+      "printed": 3.33,
+      "recomputed": 3.330074195608996,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/n",
+      "printed": 28.0,
+      "recomputed": 28.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/parents",
+      "printed": 4.0,
+      "recomputed": 4.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/bf1_1m/delta_pp",
+      "printed": 2.23,
+      "recomputed": 2.2272396031043225,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/bf1_1m/ci_low_pp",
+      "printed": -1.23,
+      "recomputed": -1.229647630629068,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/area : \u2265500/bf1_1m/ci_high_pp",
+      "printed": 9.29,
+      "recomputed": 9.28987249316471,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/n",
+      "printed": 42.0,
+      "recomputed": 42.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/iou/delta_pp",
+      "printed": 1.35,
+      "recomputed": 1.3498051835780809,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/iou/ci_low_pp",
+      "printed": -0.26,
+      "recomputed": -0.25884908394187944,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/iou/ci_high_pp",
+      "printed": 3.67,
+      "recomputed": 3.669259978828856,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/n",
+      "printed": 42.0,
+      "recomputed": 42.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/bf1_1m/delta_pp",
+      "printed": 3.05,
+      "recomputed": 3.053378634213241,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/bf1_1m/ci_low_pp",
+      "printed": -0.55,
+      "recomputed": -0.5464202934341559,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Complex outline/bf1_1m/ci_high_pp",
+      "printed": 8.81,
+      "recomputed": 8.806613427403336,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/n",
+      "printed": 129.0,
+      "recomputed": 129.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/iou/delta_pp",
+      "printed": 3.23,
+      "recomputed": 3.232301682445313,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/iou/ci_low_pp",
+      "printed": 1.22,
+      "recomputed": 1.2200794682653586,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/iou/ci_high_pp",
+      "printed": 5.62,
+      "recomputed": 5.618169453740028,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/n",
+      "printed": 129.0,
+      "recomputed": 129.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/bf1_1m/delta_pp",
+      "printed": 6.33,
+      "recomputed": 6.330894563895553,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/bf1_1m/ci_low_pp",
+      "printed": -0.41,
+      "recomputed": -0.40505813220754305,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/original shape : Near-rectangular/bf1_1m/ci_high_pp",
+      "printed": 12.0,
+      "recomputed": 12.0021384976413,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/n",
+      "printed": 82.0,
+      "recomputed": 82.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/iou/delta_pp",
+      "printed": 1.57,
+      "recomputed": 1.5659843746085773,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/iou/ci_low_pp",
+      "printed": -0.06,
+      "recomputed": -0.05905110237863176,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/iou/ci_high_pp",
+      "printed": 3.97,
+      "recomputed": 3.974845274635512,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/n",
+      "printed": 82.0,
+      "recomputed": 82.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/bf1_1m/delta_pp",
+      "printed": 3.4,
+      "recomputed": 3.3994673839847294,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/bf1_1m/ci_low_pp",
+      "printed": -2.27,
+      "recomputed": -2.270053529933554,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : compact <1.5/bf1_1m/ci_high_pp",
+      "printed": 10.91,
+      "recomputed": 10.906457923710148,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/n",
+      "printed": 13.0,
+      "recomputed": 13.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/iou/delta_pp",
+      "printed": 7.3,
+      "recomputed": 7.302261344707044,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/iou/ci_low_pp",
+      "printed": 6.01,
+      "recomputed": 6.007065703983251,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/iou/ci_high_pp",
+      "printed": 9.43,
+      "recomputed": 9.426517372815539,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/n",
+      "printed": 13.0,
+      "recomputed": 13.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/bf1_1m/delta_pp",
+      "printed": 13.33,
+      "recomputed": 13.325418900335029,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/bf1_1m/ci_low_pp",
+      "printed": 6.32,
+      "recomputed": 6.319756297223754,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : elongated \u22653/bf1_1m/ci_high_pp",
+      "printed": 15.79,
+      "recomputed": 15.7942895763325,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/n",
+      "printed": 76.0,
+      "recomputed": 76.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/iou/delta_pp",
+      "printed": 3.29,
+      "recomputed": 3.293666033508286,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/iou/ci_low_pp",
+      "printed": 1.88,
+      "recomputed": 1.8812880746808764,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/iou/ci_high_pp",
+      "printed": 5.35,
+      "recomputed": 5.349119883886347,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/n",
+      "printed": 76.0,
+      "recomputed": 76.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/bf1_1m/delta_pp",
+      "printed": 6.49,
+      "recomputed": 6.48605960774183,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/bf1_1m/ci_low_pp",
+      "printed": 0.41,
+      "recomputed": 0.4053998988490433,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/elongation : moderate 1.5\u20133/bf1_1m/ci_high_pp",
+      "printed": 11.74,
+      "recomputed": 11.739016704084936,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/n",
+      "printed": 77.0,
+      "recomputed": 77.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/iou/delta_pp",
+      "printed": 2.31,
+      "recomputed": 2.3111384178258176,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/iou/ci_low_pp",
+      "printed": 0.72,
+      "recomputed": 0.7228776938128751,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/iou/ci_high_pp",
+      "printed": 5.53,
+      "recomputed": 5.534029484100246,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/n",
+      "printed": 77.0,
+      "recomputed": 77.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/parents",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/bf1_1m/delta_pp",
+      "printed": 4.53,
+      "recomputed": 4.5348990266367775,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/bf1_1m/ci_low_pp",
+      "printed": 1.85,
+      "recomputed": 1.8505505193496383,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : 1\u20132m/bf1_1m/ci_high_pp",
+      "printed": 11.96,
+      "recomputed": 11.958014723778463,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/n",
+      "printed": 79.0,
+      "recomputed": 79.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/iou/delta_pp",
+      "printed": 2.84,
+      "recomputed": 2.838870258472866,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/iou/ci_low_pp",
+      "printed": -0.25,
+      "recomputed": -0.24964618511546535,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/iou/ci_high_pp",
+      "printed": 5.64,
+      "recomputed": 5.641117720747087,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/n",
+      "printed": 79.0,
+      "recomputed": 79.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/parents",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/bf1_1m/delta_pp",
+      "printed": 5.73,
+      "recomputed": 5.727910163099217,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/bf1_1m/ci_low_pp",
+      "printed": -2.96,
+      "recomputed": -2.9572006709733296,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : <1m/bf1_1m/ci_high_pp",
+      "printed": 13.58,
+      "recomputed": 13.57590188063465,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/n",
+      "printed": 15.0,
+      "recomputed": 15.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/iou/delta_pp",
+      "printed": 4.76,
+      "recomputed": 4.762021743585345,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/iou/ci_low_pp",
+      "printed": -0.66,
+      "recomputed": -0.6649139723400754,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/iou/ci_high_pp",
+      "printed": 6.62,
+      "recomputed": 6.620947669960309,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/n",
+      "printed": 15.0,
+      "recomputed": 15.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/parents",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/bf1_1m/delta_pp",
+      "printed": 9.55,
+      "recomputed": 9.549011562907488,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/bf1_1m/ci_low_pp",
+      "printed": -5.64,
+      "recomputed": -5.64119751857497,
+      "status": "passed"
+    },
+    {
+      "item": "TableS7/centroid shift : \u22652m/bf1_1m/ci_high_pp",
+      "printed": 10.79,
+      "recomputed": 10.786117156785595,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/pairs",
+      "printed": 9.0,
+      "recomputed": 9.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/IoU/3",
+      "printed": 70.3418,
+      "recomputed": 70.34183856190664,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/IoU/4",
+      "printed": 69.0808,
+      "recomputed": 69.08075089356456,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/IoU/5",
+      "printed": 70.3418,
+      "recomputed": 70.34183856190664,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/pairs",
+      "printed": 9.0,
+      "recomputed": 9.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/Boundary F1 (1 m)/3",
+      "printed": 63.4282,
+      "recomputed": 63.42817357622658,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/Boundary F1 (1 m)/4",
+      "printed": 60.8916,
+      "recomputed": 60.89157703418046,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/raw_reference/Boundary F1 (1 m)/5",
+      "printed": 63.4282,
+      "recomputed": 63.42817357622658,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/pairs",
+      "printed": 7.0,
+      "recomputed": 7.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/IoU/3",
+      "printed": 63.0772,
+      "recomputed": 63.07715425800552,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/IoU/4",
+      "printed": 61.2998,
+      "recomputed": 61.2997645468752,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/IoU/5",
+      "printed": 63.0772,
+      "recomputed": 63.07715425800552,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/pairs",
+      "printed": 7.0,
+      "recomputed": 7.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/Boundary F1 (1 m)/3",
+      "printed": 57.0876,
+      "recomputed": 57.08757093256962,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/Boundary F1 (1 m)/4",
+      "printed": 46.8462,
+      "recomputed": 46.846214115870346,
+      "status": "passed"
+    },
+    {
+      "item": "TableS8/reference_in_NAIP_frame/Boundary F1 (1 m)/5",
+      "printed": 57.0876,
+      "recomputed": 57.08757093256962,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611554_ne_11_1_20150525_20150923/contexts",
+      "printed": 7.0,
+      "recomputed": 7.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611554_ne_11_1_20150525_20150923/matches",
+      "printed": 693.0,
+      "recomputed": 693.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611554_se_11_1_20150525_20150923/contexts",
+      "printed": 2.0,
+      "recomputed": 2.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611554_se_11_1_20150525_20150923/matches",
+      "printed": 251.0,
+      "recomputed": 251.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_ne_11_1_20150606_20150923/contexts",
+      "printed": 3.0,
+      "recomputed": 3.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_ne_11_1_20150606_20150923/matches",
+      "printed": 198.0,
+      "recomputed": 198.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_nw_11_1_20150525_20150923/contexts",
+      "printed": 6.0,
+      "recomputed": 6.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_nw_11_1_20150525_20150923/matches",
+      "printed": 538.0,
+      "recomputed": 538.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_se_11_1_20150606_20150923/contexts",
+      "printed": 1.0,
+      "recomputed": 1.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_se_11_1_20150606_20150923/matches",
+      "printed": 5.0,
+      "recomputed": 5.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_sw_11_1_20150525_20150923/contexts",
+      "printed": 7.0,
+      "recomputed": 7.0,
+      "status": "passed"
+    },
+    {
+      "item": "TableS9/nv_m_3611555_sw_11_1_20150525_20150923/matches",
+      "printed": 334.0,
+      "recomputed": 334.0,
+      "status": "passed"
+    }
+  ],
+  "current_shared_raw_word_sha256": {
+    "1": "08a597a10aa44aab80b0375cecff81c6762bd77742b7677f048c9a9e77bb301d",
+    "2": "7bcde05af0d3a6f3b2f9302b8ec00c03884dafd67fb39770e41014b62910d72c",
+    "3": "f16649977c2e8ca7add849f3e5cdf6c82e61c2537a8f5219ac2758b5f00d793c"
+  },
+  "source_documents_revision_bearing": true,
+  "tracked_changes_not_accepted": true,
+  "table2_counts": {
+    "fixed_pairs": 2019,
+    "modified": 171,
+    "unchanged": 1848,
+    "NAIP_source_images": 6
+  },
+  "Table1": "not independently established; complete national ledger required",
+  "TableA1": "national schema reviewed; local example uses explicit subset/mapping, not national-product-schema certification",
+  "TableS1": "original scientific definitions and source/symbol hashes preserved; no threshold tuning",
+  "TableS2": "fixed selected-checkpoint provenance verified; full segmentation validation not rerun",
+  "TableS3": "historical count-to-IoU consistency verified; model perturbation suite not rerun",
+  "Figure4_circle_example": "historical MS-origin pre-confirmation illustration requires author clarification; see author issue handoff"
+}

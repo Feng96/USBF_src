@@ -1,0 +1,21 @@
+name: Real frozen-model release validation
+on: [workflow_dispatch]
+jobs:
+  real-example:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -r requirements/cpu-linux-py311.lock
+      - run: python -m pip install --no-deps .
+      - run: usbf fetch --data-dir data
+      - run: usbf example --data-dir data --output outputs/real --device cpu
+      - run: usbf regression --data-dir data --product outputs/real/USBF.parquet --output outputs/regression.json
+      - run: usbf evaluate --data-dir data --output outputs/paper
+      - run: python scripts/run_notebook.py notebooks/USBF_local_example.ipynb --output outputs/executed.ipynb
+      - uses: actions/upload-artifact@v4
+        with:
+          name: actual-release-validation
+          path: outputs/

@@ -1,0 +1,405 @@
+{
+  "A": {
+    "status": "partial",
+    "fresh_environment_lock_install": "passed",
+    "isolation": "author input mounts absent; core network disabled",
+    "real_staged_archive_download_extraction": "passed local-file transport only",
+    "final_public_download": "blocked: target/license/authorization not confirmed"
+  },
+  "B": {
+    "status": "passed_local",
+    "real_CPU_inference": true,
+    "generated_objects": 3,
+    "regression": {
+      "status": "passed",
+      "comparison": "same real inputs, frozen weights and rule definitions; historical GPU/software outputs versus selected execution backend",
+      "objects": [
+        {
+          "key": "ms:UnitedStates_023013100_113977",
+          "wkb_exact": true,
+          "geometry_exact": true,
+          "symmetric_difference_m2": 0.0,
+          "hausdorff_distance_m": 0.0,
+          "modified": true,
+          "circle_gate_status": "not_applicable"
+        },
+        {
+          "key": "ms:UnitedStates_023013100_212218",
+          "wkb_exact": true,
+          "geometry_exact": true,
+          "symmetric_difference_m2": 0.0,
+          "hausdorff_distance_m": 0.0,
+          "modified": false,
+          "circle_gate_status": "not_applicable"
+        },
+        {
+          "key": "ms:UnitedStates_023013100_225286",
+          "wkb_exact": true,
+          "geometry_exact": true,
+          "symmetric_difference_m2": 0.0,
+          "hausdorff_distance_m": 0.0,
+          "modified": false,
+          "circle_gate_status": "unconfirmed"
+        }
+      ],
+      "probability_comparisons": [
+        {
+          "frame": "Vegas_SN2_1226",
+          "max_absolute_difference": 3.159046173095703e-06,
+          "mean_absolute_difference": 3.3607353344677904e-08,
+          "threshold_crossings": {
+            "0.25": 0,
+            "0.35": 0,
+            "0.45": 0,
+            "0.5": 0,
+            "0.65": 0
+          }
+        }
+      ],
+      "maximum_symmetric_difference_m2": 0.0,
+      "maximum_hausdorff_distance_m": 0.0,
+      "geometry_tolerance_relaxed": false
+    },
+    "contracts": 17,
+    "missing_height": "actual models passed",
+    "source_final_preconfirmation_WKB_readback": "passed",
+    "full_image_generation": "not executed"
+  },
+  "C": {
+    "status": "passed_geometric_replay",
+    "primary": {
+      "actual_geometry_pairs": 2019,
+      "geometry_rasterization_executed": true,
+      "reference_translated_only": true,
+      "matching_refitted": false,
+      "score_csv_used_as_input": false,
+      "expected_metrics_used_only_after_rescoring": true,
+      "maximum_metric_difference": 9.094947017729282e-13,
+      "individual_column_differences": {
+        "raw_reference_GBA_intersection_m2": 2.2737367544323206e-13,
+        "raw_reference_GBA_union_m2": 2.2737367544323206e-13,
+        "raw_reference_GBA_iou": 1.1102230246251565e-16,
+        "raw_reference_GBA_pred_n": 0.0,
+        "raw_reference_GBA_gt_n": 0.0,
+        "raw_reference_GBA_pred_hit_1m": 0.0,
+        "raw_reference_GBA_gt_hit_1m": 0.0,
+        "raw_reference_GBA_pred_hit_2m": 0.0,
+        "raw_reference_GBA_gt_hit_2m": 0.0,
+        "raw_reference_GBA_bf1_1m": 1.1102230246251565e-16,
+        "raw_reference_GBA_bf1_2m": 1.1102230246251565e-16,
+        "raw_reference_USBF_old_intersection_m2": 2.2737367544323206e-13,
+        "raw_reference_USBF_old_union_m2": 2.2737367544323206e-13,
+        "raw_reference_USBF_old_iou": 1.1102230246251565e-16,
+        "raw_reference_USBF_old_pred_n": 0.0,
+        "raw_reference_USBF_old_gt_n": 0.0,
+        "raw_reference_USBF_old_pred_hit_1m": 0.0,
+        "raw_reference_USBF_old_gt_hit_1m": 0.0,
+        "raw_reference_USBF_old_pred_hit_2m": 0.0,
+        "raw_reference_USBF_old_gt_hit_2m": 0.0,
+        "raw_reference_USBF_old_bf1_1m": 1.1102230246251565e-16,
+        "raw_reference_USBF_old_bf1_2m": 1.1102230246251565e-16,
+        "raw_reference_USBF_OSM_gate_intersection_m2": 2.2737367544323206e-13,
+        "raw_reference_USBF_OSM_gate_union_m2": 2.2737367544323206e-13,
+        "raw_reference_USBF_OSM_gate_iou": 1.1102230246251565e-16,
+        "raw_reference_USBF_OSM_gate_pred_n": 0.0,
+        "raw_reference_USBF_OSM_gate_gt_n": 0.0,
+        "raw_reference_USBF_OSM_gate_pred_hit_1m": 0.0,
+        "raw_reference_USBF_OSM_gate_gt_hit_1m": 0.0,
+        "raw_reference_USBF_OSM_gate_pred_hit_2m": 0.0,
+        "raw_reference_USBF_OSM_gate_gt_hit_2m": 0.0,
+        "raw_reference_USBF_OSM_gate_bf1_1m": 1.1102230246251565e-16,
+        "raw_reference_USBF_OSM_gate_bf1_2m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_GBA_intersection_m2": 4.547473508864641e-13,
+        "reference_in_NAIP_frame_GBA_union_m2": 9.094947017729282e-13,
+        "reference_in_NAIP_frame_GBA_iou": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_GBA_pred_n": 0.0,
+        "reference_in_NAIP_frame_GBA_gt_n": 0.0,
+        "reference_in_NAIP_frame_GBA_pred_hit_1m": 0.0,
+        "reference_in_NAIP_frame_GBA_gt_hit_1m": 0.0,
+        "reference_in_NAIP_frame_GBA_pred_hit_2m": 0.0,
+        "reference_in_NAIP_frame_GBA_gt_hit_2m": 0.0,
+        "reference_in_NAIP_frame_GBA_bf1_1m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_GBA_bf1_2m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_old_intersection_m2": 4.547473508864641e-13,
+        "reference_in_NAIP_frame_USBF_old_union_m2": 2.2737367544323206e-13,
+        "reference_in_NAIP_frame_USBF_old_iou": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_old_pred_n": 0.0,
+        "reference_in_NAIP_frame_USBF_old_gt_n": 0.0,
+        "reference_in_NAIP_frame_USBF_old_pred_hit_1m": 0.0,
+        "reference_in_NAIP_frame_USBF_old_gt_hit_1m": 0.0,
+        "reference_in_NAIP_frame_USBF_old_pred_hit_2m": 0.0,
+        "reference_in_NAIP_frame_USBF_old_gt_hit_2m": 0.0,
+        "reference_in_NAIP_frame_USBF_old_bf1_1m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_old_bf1_2m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_OSM_gate_intersection_m2": 4.547473508864641e-13,
+        "reference_in_NAIP_frame_USBF_OSM_gate_union_m2": 2.2737367544323206e-13,
+        "reference_in_NAIP_frame_USBF_OSM_gate_iou": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_OSM_gate_pred_n": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_gt_n": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_pred_hit_1m": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_gt_hit_1m": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_pred_hit_2m": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_gt_hit_2m": 0.0,
+        "reference_in_NAIP_frame_USBF_OSM_gate_bf1_1m": 1.1102230246251565e-16,
+        "reference_in_NAIP_frame_USBF_OSM_gate_bf1_2m": 1.1102230246251565e-16
+      },
+      "accepted_operation_counts": {
+        "addition_only": 144,
+        "removal_only": 20,
+        "addition_and_removal": 7
+      },
+      "registered_modified": {
+        "iou_before": 0.6973765936048105,
+        "iou_after": 0.7250759348180107,
+        "bf1_before": 0.5440859123332865,
+        "bf1_after": 0.5993448188467065,
+        "iou_delta_pp": 2.7699341213200275,
+        "bf1_delta_pp": 5.525890651342003,
+        "iou_ci": [
+          1.1024549625565354,
+          5.181428632271803
+        ],
+        "bf1_ci": [
+          -0.4297466961952849,
+          11.084904449702625
+        ]
+      },
+      "separate_curved_reference_replay": {
+        "status": "passed",
+        "fixed_targets": 13,
+        "matched_pairs": 9,
+        "raw_scored": 9,
+        "registered_scored": 7,
+        "unmatched_targets": 4,
+        "maximum_metric_difference": 1.1102230246251565e-16,
+        "unavailable_scores": "NA, never zero",
+        "primary_2019_denominator_changed": false,
+        "candidate_96_screening_records": true
+      },
+      "status": "passed",
+      "elapsed_seconds": 43.12596654891968
+    },
+    "post_scoring_summary_comparisons": 960,
+    "maximum_summary_difference": 1.0658141036401503e-14,
+    "historical_classification_differences": [],
+    "full_image_generation": "not executed; actual32-frame inputs and generate entry available",
+    "full_retraining": "not executed; original training inventory/configurations retained"
+  },
+  "D": {
+    "status": "partial",
+    "fresh_notebook_Run_All": "passed",
+    "public_repository": "not published; awaiting author",
+    "remote_clone": "not executed",
+    "CI": "configured; remote run not executed"
+  },
+  "actual_commands": [
+    {
+      "command": [
+        "/env/bin/usbf",
+        "doctor"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 1.2681498527526855,
+      "peak_rss_KiB": 256948,
+      "log": "00_environment.log"
+    },
+    {
+      "command": [
+        "/env/bin/python",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.851865291595459,
+      "peak_rss_KiB": 48976,
+      "log": "01_dependency_check.log"
+    },
+    {
+      "command": [
+        "/env/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "/checkout/tests"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.8816757202148438,
+      "peak_rss_KiB": 473944,
+      "log": "02_contract_tests.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "fetch",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--manifest",
+        "/work/evidence/LOCAL_TRANSPORT_ONLY_REGISTRY.json",
+        "--full-inputs"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 3.9333019256591797,
+      "peak_rss_KiB": 37388,
+      "log": "03_unpack_actual_release_assets_local_transport.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "fetch",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--offline",
+        "--full-inputs"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.7762517929077148,
+      "peak_rss_KiB": 28780,
+      "log": "04_offline_minimal_and_full_verification.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "example",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--output",
+        "/work/runs/final004/real_example",
+        "--device",
+        "cpu",
+        "--threads",
+        "2"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 9.42616319656372,
+      "peak_rss_KiB": 1128992,
+      "log": "05_real_model_example.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "regression",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--product",
+        "/work/runs/final004/real_example/USBF.parquet",
+        "--output",
+        "/work/runs/final004/REGRESSION.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 0.7083230018615723,
+      "peak_rss_KiB": 206348,
+      "log": "06_historical_regression.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "preview",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--product",
+        "/work/runs/final004/real_example/USBF.parquet",
+        "--output",
+        "/work/runs/final004/preview.png"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 2.006448268890381,
+      "peak_rss_KiB": 272984,
+      "log": "07_actual_preview.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "evaluate",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--output",
+        "/work/runs/final004/paper_replay"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 43.79224634170532,
+      "peak_rss_KiB": 419652,
+      "log": "08_all_2019_geometry_and_figures.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "register",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--output",
+        "/work/runs/final004/REGISTRATION.json"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 6.259327173233032,
+      "peak_rss_KiB": 632696,
+      "log": "09_real_ground_registration.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "example",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--output",
+        "/work/runs/final004/missing_height",
+        "--device",
+        "cpu",
+        "--simulate-missing-height"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 9.613646984100342,
+      "peak_rss_KiB": 1131744,
+      "log": "10_missing_height_control.log"
+    },
+    {
+      "command": [
+        "/env/bin/usbf",
+        "train",
+        "--data-dir",
+        "/work/runs/final004/data",
+        "--output",
+        "/work/runs/final004/B1_SOFTWARE_TRAINING_CONTROL.json",
+        "--software-smoke"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 4.980844020843506,
+      "peak_rss_KiB": 1156184,
+      "log": "11_training_software_control.log"
+    },
+    {
+      "command": [
+        "/env/bin/python",
+        "/checkout/scripts/run_notebook.py",
+        "/checkout/notebooks/USBF_local_example.ipynb",
+        "--output",
+        "/work/runs/final004/executed_notebook.ipynb"
+      ],
+      "returncode": 0,
+      "elapsed_seconds": 13.49441409111023,
+      "peak_rss_KiB": 1125272,
+      "log": "12_notebook_run_all.log"
+    }
+  ],
+  "local_transport_does_not_claim_public_availability": true,
+  "code_matches_immutable_tested_snapshot": false,
+  "manuscript_training_production_modified": false,
+  "runtime_code_tests_notebook_and_lock_match_tested_snapshot": true,
+  "post_test_packaging_check": {
+    "status": "passed",
+    "wheel": "usbf_reproducible-0.1.0-py3-none-any.whl",
+    "wheel_sha256": "91d8431c6e2e411aebcb2bcd2c0c433b51220f885ba0fb50959f52a360d85a8f",
+    "embedded_license_files": [
+      "usbf_reproducible-0.1.0.dist-info/licenses/THIRD_PARTY_NOTICES.md",
+      "usbf_reproducible-0.1.0.dist-info/licenses/licenses/building_boundary.txt",
+      "usbf_reproducible-0.1.0.dist-info/licenses/licenses/buildingregulariser.txt"
+    ],
+    "all_runtime_modules_and_registry_match_source": true,
+    "pyproject_sha256": "0067161b85c67c6bf3545659dd55191df03c6a0d1e09cc1eae82fa1cc2f753c3",
+    "metadata_only_change_after_final004": "Include third-party notices in built distribution; runtime source unchanged"
+  },
+  "current_manuscript_table_audit": {
+    "numeric_cells": 269,
+    "status": "passed; national ledger and illustrative circle interpretation separately pending"
+  }
+}

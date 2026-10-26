@@ -1,0 +1,16 @@
+.venv/
+data/
+outputs/
+*.egg-info/
+__pycache__/
+.pytest_cache/
+build/
+dist/
+*.pth
+*.npz
+*.tif
+*.parquet
+*.gpkg
+build/
+dist/
+*.egg-info/

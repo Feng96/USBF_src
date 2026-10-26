@@ -1,0 +1,18 @@
+[
+  {
+    "historical_file": "manuscript_simple_map_20261025/make_map.py",
+    "sha256": "9e61e069b82aac051af15502ce61c9a27b23bb607a9e0351c7897ddb49090545"
+  },
+  {
+    "historical_file": "manuscript_model_roles_20261025/build.py",
+    "sha256": "cc8e3f073db42bb9af59a50656866ac8055dc8f4980ab858b1bcf5c90cfad918"
+  },
+  {
+    "historical_file": "project/buildings/scripts/manuscript/build_data_paper_assets_20260911.py",
+    "sha256": "2867539c765cd4f8cea7a2630696c6019a758976884c42ac203a94bd07269d15"
+  },
+  {
+    "historical_file": "manuscript_revision_20261011_final/make_figure6.py",
+    "sha256": "dd677bc0f3cbeb043fcb910642a657b85ce39cb09bc8f3610a2657c63efdab48"
+  }
+]

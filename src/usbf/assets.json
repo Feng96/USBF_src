@@ -1,0 +1,45 @@
+{
+  "version": "20261025-manuscript-candidate",
+  "assets": [
+    {
+      "name": "usbf-manuscript-inputs-20261025.tar.gz",
+      "url": null,
+      "destination": "downloads/usbf-manuscript-inputs-20261025.tar.gz",
+      "sha256": "9680ef4a3e621bccbeecc036dd2d49c09d9670bc755cc3bedd50d8f41390a2bb",
+      "bytes": 23869991,
+      "archive": "tar.gz",
+      "optional": false,
+      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+    },
+    {
+      "name": "B0_control_best_shape_naip_val.pth",
+      "url": null,
+      "destination": "weights/B0_control_best_shape_naip_val.pth",
+      "sha256": "1912c45a663ab95962449960791396eacfc2fa9f5236b0abcce6bb5716c71238",
+      "bytes": 300413260,
+      "archive": null,
+      "optional": false,
+      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+    },
+    {
+      "name": "B1_shape_best_shape_naip_val.pth",
+      "url": null,
+      "destination": "weights/B1_shape_best_shape_naip_val.pth",
+      "sha256": "65b86df2d146f4074eea700cd6cd8ff2d3839e9a837c3dc0d947211b6e87bcc9",
+      "bytes": 300858518,
+      "archive": null,
+      "optional": false,
+      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+    },
+    {
+      "name": "usbf-full-32-frame-inputs-20261025.tar.gz",
+      "url": null,
+      "destination": "downloads/usbf-full-32-frame-inputs-20261025.tar.gz",
+      "sha256": "2e8be0c84728ad267466a5843593c926b8b50ed47bcd0fc3e62ad1dad1e293f6",
+      "bytes": 81334397,
+      "archive": "tar.gz",
+      "optional": true,
+      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+    }
+  ]
+}
