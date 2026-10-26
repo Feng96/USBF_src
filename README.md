@@ -1,4 +1,4 @@
-# USBF: local manuscript reproduction
+# USBF: Minimal Reproducible Workflow
 
 Generate building footprints locally from real RGB imagery, signed nDSM, original GBA instances, and the two frozen manuscript models. The example includes a changed outline, an unchanged building, and a circle candidate that returns to GBA because exact OSM confirmation is unavailable.
 
@@ -13,7 +13,7 @@ Use Linux x86_64 and Python 3.11. A CPU is sufficient. Clone the source and inst
 ```bash
 git clone https://github.com/Feng96/USBF_src.git
 cd USBF_src
-git checkout v0.1.2
+git checkout v0.1.3
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements/cpu-linux-py311.lock
@@ -88,3 +88,11 @@ See [reproduction details](docs/reproduction.md), [training scope](docs/training
 ## Licensing
 
 Original USBF code: [MIT](LICENSE). Frozen B0/B1 checkpoints: [CC BY 4.0](licenses/MODEL_WEIGHTS.txt). Input snapshots retain their component-specific source licenses, including ODbL for the supplied GBA/OSM/Microsoft-origin footprint databases and CC BY-SA 4.0 for SpaceNet labels and imagery. Read [asset attribution and terms](docs/asset_terms.md); neither the code license nor the checkpoint license replaces these upstream terms or specifies the license of the separate national USBF product.
+
+## Citation
+
+Cite the exact workflow version used:
+
+Feng, Y.; Wu, Q.; Li, Y.; Tran, L. *USBF: Minimal Reproducible Workflow*; Version 0.1.3; GitHub, 2026. https://github.com/Feng96/USBF_src/releases/tag/v0.1.3
+
+Version 0.1.3 updates the workflow title and citation metadata. The computational source, tests, dependency locks, notebook, and input manifests are unchanged from v0.1.2, which passed the [public reproduction run](https://github.com/Feng96/USBF_src/actions/runs/40275102285). No new full-workflow execution is claimed for this metadata-only release. Frozen assets retain their v0.1.0 URLs and checksums.

@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "Please cite the USBF manuscript and the exact software release used."
-title: "USBF: local manuscript reproduction"
+message: "Please cite the exact USBF workflow version used."
+title: "USBF: Minimal Reproducible Workflow"
 type: software
-version: 0.1.2
+version: 0.1.3
 repository-code: "https://github.com/Feng96/USBF_src"
 license: MIT
 date-released: 2026-10-26
