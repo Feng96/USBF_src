@@ -63,7 +63,8 @@
     "contracts": 17,
     "missing_height": "actual models passed",
     "source_final_preconfirmation_WKB_readback": "passed",
-    "full_image_generation": "not executed"
+    "full_image_generation": "not executed",
+    "preview_visual_check": "passed actual corrected RGB/geometry overlays; original and final layers use their selected CRS-aware geometry columns"
   },
   "C": {
     "status": "passed_geometric_replay",
@@ -190,7 +191,18 @@
     "fresh_notebook_Run_All": "passed",
     "public_repository": "not published; awaiting author",
     "remote_clone": "not executed",
-    "CI": "configured; remote run not executed"
+    "CI": "configured; remote run not executed",
+    "actual_local_git_clone_preflight": "passed real model, exact WKB regression,17 tests and fresh notebook; distinct from public remote clone",
+    "local_clone_evidence_commit": "04901ca01e8d39238cbb69b1f8749946cc578a6a",
+    "local_clone_command_exit_codes": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
   },
   "actual_commands": [
     {
@@ -401,5 +413,12 @@
   "current_manuscript_table_audit": {
     "numeric_cells": 269,
     "status": "passed; national ledger and illustrative circle interpretation separately pending"
-  }
+  },
+  "resolved_release_preflight_issues": [
+    "Preserved vendored nested package initialization",
+    "Removed self-referential data checksum entry",
+    "Fixed explicit multi-geometry-column selection in preview and optional generated-product rescoring",
+    "Anchored root data ignore pattern so input modules are tracked; actual git clone tested",
+    "Included third-party notices in built distribution"
+  ]
 }
