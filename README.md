@@ -4,18 +4,25 @@ Generate building footprints locally from real RGB imagery, signed nDSM, origina
 
 The manuscript configuration retains circle/ellipse candidate detection and the September 18 OSM confirmation rule. B1 generates candidate outlines; B0 and B1 probabilities jointly assess local changes. Building identifiers and supplied GBA height attributes are retained.
 
-This release candidate has passed local clean-environment validation. Public repository, asset URLs, and author licenses are awaiting confirmation; `fetch` will not silently substitute other data or weights. See [the actual validation report](docs/release_validation.json).
+This source preview has passed local clean-environment validation. Public input and checkpoint downloads are not yet available, and the authors have not yet selected the original-code and checkpoint licenses. Consequently, `usbf fetch` currently stops with an explicit unpublished-asset error. The privately supplied review-bundle route below is the verified local workflow. See [the actual validation report](docs/release_validation.json) for its scope; a public end-to-end release will require fresh-download validation.
 
 ## Quick start
 
-Use Linux x86_64 and Python 3.11. A CPU is sufficient. After obtaining and unpacking this source package:
+Use Linux x86_64 and Python 3.11. A CPU is sufficient. Clone the source and install it as follows:
 
 ```bash
+git clone https://github.com/Feng96/USBF_src.git
+cd USBF_src
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements/cpu-linux-py311.lock
 python -m pip install --no-deps .
 usbf doctor
+```
+
+Once the public input and checkpoint assets are released, run the following commands. Until then, use the private review-bundle instructions below; the default download command cannot yet complete.
+
+```bash
 usbf fetch --data-dir data
 usbf example --data-dir data --output outputs/example --device cpu --threads 2
 usbf regression --data-dir data --product outputs/example/USBF.parquet --output outputs/regression.json
