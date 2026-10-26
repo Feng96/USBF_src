@@ -9,4 +9,6 @@ The original runtime imported only pure geometric submodules. The package retain
 
 PyTorch/torchvision, NumPy/SciPy, GDAL/rasterio, PROJ/pyproj, GEOS/Shapely, GeoPandas/pyogrio, OpenCV and scikit-image retain their own licenses. They are installed from pinned distributions rather than copied as unlicensed project code.
 
-Input imagery, elevation, geometry and labels are distinct assets. Source terms and attribution for NAIP/3DEP, GBA and inherited OSM/Microsoft geometry, and SpaceNet remain applicable. The current GBA component-license notice is linked in `docs/data.md`; no blanket relicensing of mixed upstream data is implied by an original-code license. Author approval of the original-code and frozen-checkpoint release is pending, so no new project LICENSE is invented here.
+Original USBF code is licensed under MIT; the root `LICENSE` applies to original contributions. The two frozen model checkpoints are licensed under CC BY 4.0, as specified in `licenses/MODEL_WEIGHTS.txt`. Vendored packages retain the notices above.
+
+Input imagery, elevation, geometry and labels are distinct assets. Source terms and attribution for NAIP/3DEP, GBA and inherited OSM/Microsoft geometry, and SpaceNet remain applicable. See `docs/asset_terms.md` and the `DATA_LICENSES.txt` supplied inside each data archive. GBA/OSM-origin footprint databases retain ODbL; SpaceNet reference labels and imagery retain CC BY-SA 4.0. The software and checkpoint licenses do not relicense these input datasets or the separate national product.

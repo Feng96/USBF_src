@@ -6,6 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "usbf-reproducible"
 version = "0.1.0"
 description = "Local reproduction of the USBF manuscript footprint-generation and evaluation methods"
+license = {file = "LICENSE"}
 requires-python = ">=3.10,<3.13"
 dependencies = [
   "torch==2.5.1", "torchvision==0.20.1", "numpy==2.2.5", "scipy==1.15.3",
@@ -21,7 +22,7 @@ test = ["pytest==8.3.5", "nbclient==0.10.2", "nbformat==5.10.4", "ipykernel==6.2
 usbf = "usbf.cli:main"
 
 [tool.setuptools]
-license-files = ["licenses/*.txt", "THIRD_PARTY_NOTICES.md"]
+license-files = ["LICENSE", "licenses/*.txt", "THIRD_PARTY_NOTICES.md"]
 
 [tool.setuptools.packages.find]
 where = ["src"]

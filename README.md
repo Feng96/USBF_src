@@ -4,7 +4,7 @@ Generate building footprints locally from real RGB imagery, signed nDSM, origina
 
 The manuscript configuration retains circle/ellipse candidate detection and the September 18 OSM confirmation rule. B1 generates candidate outlines; B0 and B1 probabilities jointly assess local changes. Building identifiers and supplied GBA height attributes are retained.
 
-This source preview has passed local clean-environment validation. Public input and checkpoint downloads are not yet available, and the authors have not yet selected the original-code and checkpoint licenses. Consequently, `usbf fetch` currently stops with an explicit unpublished-asset error. The privately supplied review-bundle route below is the verified local workflow. See [the actual validation report](docs/release_validation.json) for its scope; a public end-to-end release will require fresh-download validation.
+The versioned input snapshots and exact model checkpoints are distributed with [release v0.1.0](https://github.com/Feng96/USBF_src/releases/tag/v0.1.0). Downloads are anonymous and checked against fixed SHA-256 values. See the [local validation record](docs/release_validation.json) and [public-release workflow](https://github.com/Feng96/USBF_src/actions/workflows/real-example.yml) for the tested scope and public-run status. Full 32-frame regeneration and complete historical model retraining are outside the completed local acceptance.
 
 ## Quick start
 
@@ -13,6 +13,7 @@ Use Linux x86_64 and Python 3.11. A CPU is sufficient. Clone the source and inst
 ```bash
 git clone https://github.com/Feng96/USBF_src.git
 cd USBF_src
+git checkout v0.1.0
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements/cpu-linux-py311.lock
@@ -20,7 +21,7 @@ python -m pip install --no-deps .
 usbf doctor
 ```
 
-Once the public input and checkpoint assets are released, run the following commands. Until then, use the private review-bundle instructions below; the default download command cannot yet complete.
+Download the real inputs and both frozen checkpoints, then generate and check the example:
 
 ```bash
 usbf fetch --data-dir data
@@ -36,7 +37,7 @@ usbf fetch --offline --data-dir data
 usbf example --data-dir data --output outputs/offline-example --device cpu
 ```
 
-For a privately supplied review bundle before public publication, put the three staged files in the repository root and prepare the same cache explicitly:
+Alternatively, manually download the three required files from the release page, put them in the repository root, and prepare the same cache explicitly:
 
 ```bash
 mkdir -p data/weights
@@ -46,7 +47,7 @@ usbf fetch --offline --data-dir data
 usbf example --data-dir data --output outputs/local-review --device cpu --threads 2
 ```
 
-This local-file route does not count as validation of a public download endpoint. [Measured versions and resources](docs/measured_environment.md) and [the local-versus-national output schema](docs/local_output_schema.md) describe the tested scope.
+The manual-file route is useful for transferring assets to an offline machine. [Measured versions and resources](docs/measured_environment.md) and [the local-versus-national output schema](docs/local_output_schema.md) describe the tested scope.
 
 Use a new output directory for each generation. `outputs/example/USBF.parquet` is a readable GeoParquet containing final, original, and pre-confirmation geometries, stable input IDs, accepted-change status, areas, source labels, and elevation-coverage information. `AUDIT.json`, `GENERATION.json`, `INFERENCE.json`, and `evaluation/` document actual execution. Original height values absent from an input remain null; nDSM statistics do not replace them.
 
@@ -83,3 +84,7 @@ python -m pytest -q
 The notebook starts a fresh kernel, performs real model inference and geometry evaluation, and displays the newly generated footprints. Its default data directory is `data/` at the repository root. `.[test]` dependencies are included in the tested CPU lock file. Contract tests include clearly labeled synthetic controls for circle confirmation, holes, missing elevation, invalid inputs, absent weights, unmatched references, and geometry readback. These are software tests, not additional accuracy samples.
 
 See [reproduction details](docs/reproduction.md), [training scope](docs/training.md), [data roles](docs/data.md), [scientific scope](docs/scientific_scope.md), [source mapping](docs/source_mapping.csv), and [manuscript mapping](docs/manuscript_mapping.csv). Dataset access remains at [Source Cooperative](https://source.coop/opengeos/us-buildings); this example does not independently certify national release counts or coverage.
+
+## Licensing
+
+Original USBF code: [MIT](LICENSE). Frozen B0/B1 checkpoints: [CC BY 4.0](licenses/MODEL_WEIGHTS.txt). Input snapshots retain their component-specific source licenses, including ODbL for the supplied GBA/OSM/Microsoft-origin footprint databases and CC BY-SA 4.0 for SpaceNet labels and imagery. Read [asset attribution and terms](docs/asset_terms.md); neither the code license nor the checkpoint license replaces these upstream terms or specifies the license of the separate national USBF product.

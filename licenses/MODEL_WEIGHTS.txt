@@ -1,0 +1,18 @@
+USBF frozen model checkpoints — CC BY 4.0
+
+Copyright (c) 2026 USBF contributors.
+The original trained parameters in the following exact checkpoints are made
+available under Creative Commons Attribution 4.0 International:
+https://creativecommons.org/licenses/by/4.0/
+
+B0_control_best_shape_naip_val.pth
+SHA256: 1912c45a663ab95962449960791396eacfc2fa9f5236b0abcce6bb5716c71238
+B1_shape_best_shape_naip_val.pth
+SHA256: 65b86df2d146f4074eea700cd6cd8ff2d3839e9a837c3dc0d947211b6e87bcc9
+
+Attribution: USBF contributors, USBF manuscript models, software release v0.1.0,
+https://github.com/Feng96/USBF_src . Retain this notice and the license link;
+identify changes to redistributed checkpoints. See CITATION.cff for authors.
+The full license text accompanies this notice as CC-BY-4.0.txt.
+This grant does not relicense training data, third-party software, imagery,
+source footprints, SpaceNet reference annotations, or national USBF products.

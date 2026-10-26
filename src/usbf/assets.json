@@ -1,45 +1,49 @@
 {
-  "version": "20261025-manuscript-candidate",
+  "version": "v0.1.0",
   "assets": [
     {
       "name": "usbf-manuscript-inputs-20261025.tar.gz",
-      "url": null,
+      "url": "https://github.com/Feng96/USBF_src/releases/download/v0.1.0/usbf-manuscript-inputs-20261025.tar.gz",
       "destination": "downloads/usbf-manuscript-inputs-20261025.tar.gz",
-      "sha256": "9680ef4a3e621bccbeecc036dd2d49c09d9670bc755cc3bedd50d8f41390a2bb",
-      "bytes": 23869991,
+      "sha256": "28bb92ebce09856677c412af8a98521efab71ea960ec1b303f3fe39f884526f3",
+      "bytes": 23878248,
       "archive": "tar.gz",
       "optional": false,
-      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+      "publication_status": "versioned public release asset",
+      "license": "Component-specific; see DATA_LICENSES.txt in archive"
     },
     {
       "name": "B0_control_best_shape_naip_val.pth",
-      "url": null,
+      "url": "https://github.com/Feng96/USBF_src/releases/download/v0.1.0/B0_control_best_shape_naip_val.pth",
       "destination": "weights/B0_control_best_shape_naip_val.pth",
       "sha256": "1912c45a663ab95962449960791396eacfc2fa9f5236b0abcce6bb5716c71238",
       "bytes": 300413260,
       "archive": null,
       "optional": false,
-      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+      "publication_status": "versioned public release asset",
+      "license": "CC-BY-4.0"
     },
     {
       "name": "B1_shape_best_shape_naip_val.pth",
-      "url": null,
+      "url": "https://github.com/Feng96/USBF_src/releases/download/v0.1.0/B1_shape_best_shape_naip_val.pth",
       "destination": "weights/B1_shape_best_shape_naip_val.pth",
       "sha256": "65b86df2d146f4074eea700cd6cd8ff2d3839e9a837c3dc0d947211b6e87bcc9",
       "bytes": 300858518,
       "archive": null,
       "optional": false,
-      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+      "publication_status": "versioned public release asset",
+      "license": "CC-BY-4.0"
     },
     {
       "name": "usbf-full-32-frame-inputs-20261025.tar.gz",
-      "url": null,
+      "url": "https://github.com/Feng96/USBF_src/releases/download/v0.1.0/usbf-full-32-frame-inputs-20261025.tar.gz",
       "destination": "downloads/usbf-full-32-frame-inputs-20261025.tar.gz",
-      "sha256": "2e8be0c84728ad267466a5843593c926b8b50ed47bcd0fc3e62ad1dad1e293f6",
-      "bytes": 81334397,
+      "sha256": "cfdc3c90d65e6725061716779a853d2eac12ae4b7f05e03695cbafe6fb6427c3",
+      "bytes": 81341643,
       "archive": "tar.gz",
       "optional": true,
-      "publication_status": "local_review_artifact; public publication pending author target/license/access"
+      "publication_status": "versioned public release asset",
+      "license": "Component-specific; see DATA_LICENSES.txt in archive"
     }
   ]
 }
