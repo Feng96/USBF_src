@@ -13,7 +13,7 @@ Use Linux x86_64 and Python 3.11. A CPU is sufficient. Clone the source and inst
 ```bash
 git clone https://github.com/Feng96/USBF_src.git
 cd USBF_src
-git checkout v0.1.0
+git checkout v0.1.1
 python3.11 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements/cpu-linux-py311.lock

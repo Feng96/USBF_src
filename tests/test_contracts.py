@@ -11,6 +11,30 @@ def test_zero_height_is_valid_measurement(tmp_path):
     r=dict(path=str(p),sha256=sha(p),crs='EPSG:32611',transform=[1,0,0,0,-1,8])
     a=load_sensor(r,True);assert a['height_valid'].all();assert np.array_equal(a['signed'],np.zeros((8,8)))
 
+def test_regression_distinguishes_nanometre_roundoff_from_real_displacement():
+    from shapely.affinity import translate
+    from usbf.evaluation.regression import geometry_check
+    a=box(500000,4000000,500020,4000020)
+    assert geometry_check(a,translate(a,xoff=5e-9))['numerically_equivalent']
+    assert not geometry_check(a,translate(a,xoff=.001))['numerically_equivalent']
+
+def test_regression_rejects_changed_ring_structure_even_for_tiny_holes():
+    from shapely.geometry import Polygon
+    from usbf.evaluation.regression import geometry_check
+    a=box(500000,4000000,500020,4000020)
+    b=Polygon(a.exterior,[box(500010,4000010,500010.000001,4000010.000001).exterior])
+    assert not geometry_check(a,b)['numerically_equivalent']
+
+def test_regression_refuses_incomplete_fixed_sample(tmp_path):
+    import geopandas as gpd
+    from usbf.evaluation.regression import compare
+    a=gpd.GeoDataFrame(dict(key=['a','b']),geometry=[box(0,0,1,1),box(2,2,3,3)],crs=4326).set_index('key')
+    folder=tmp_path/'example/regression';folder.mkdir(parents=True)
+    a.to_parquet(folder/'expected_final.parquet')
+    a.iloc[:1].reset_index().to_parquet(tmp_path/'product.parquet')
+    with pytest.raises(ValueError,match='complete fixed example'):
+        compare(tmp_path,tmp_path/'product.parquet',tmp_path/'report.json')
+
 def test_corrupt_input_refused(tmp_path):
     p=tmp_path/'bad.npz';p.write_bytes(b'broken')
     with pytest.raises(ValueError,match='checksum'):load_sensor(dict(path=p,sha256='0'*64),True)
